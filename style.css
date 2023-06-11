@@ -1,0 +1,64 @@
+body {
+    background-image: url(image/vrc/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: PromptThin
+}
+
+@font-face {
+    font-family: PromptThin;
+    src: url(font/prompt/Prompt-Thin.ttf);
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 50px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 8px;
+    width: 600;
+    height: 800;
+}
+
+button {
+    background-color: #8304aa;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: PromptThin;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+button:hover span {
+    padding-right: 25px;
+  }
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
