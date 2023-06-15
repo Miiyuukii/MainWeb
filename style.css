@@ -1,10 +1,17 @@
 body {
-    background-image: url(image/vrc/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #340044;
+    background-image: url(image/vrc/bg1.png);
     color: white;
     font-family: PromptThin
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -12,26 +19,26 @@ body {
     src: url(font/prompt/Prompt-Thin.ttf);
 }
 
-.main {
+.box1 {
     background-color: rgba(0, 0, 0, 0.7); 
-    padding: 10px;
-    margin: auto;
-    margin-top: 10%;
-    text-align: center;
-    border-radius: 8px;
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: 100vh;
+}
+
+.group1 {
+  text-align: center;
+  padding-top: 10%;
 }
 
 button {
-    background-color: #8304aa;
+    background-color: #6d04aa;
     border: none;
     color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
     border-radius: 8px;
     transition: all 0.5s;
@@ -63,3 +70,15 @@ button:hover span:after {
     opacity: 1;
     right: 0;
   }
+
+.video {
+  border-color: #6d04aa;
+  border-radius: 16px;
+}
+
+.box2 {
+  background-color: #711ea1;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
