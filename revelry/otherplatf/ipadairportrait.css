@@ -1,0 +1,99 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #340044;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.7); 
+    width: auto;
+    height: auto;
+}
+
+.group1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video-container{
+    width: 100vw;
+    height: 100vh;
+    filter: blur(1rem);
+  }
+      
+  .bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  #text{
+    position: absolute;
+    color: #FFFFFF;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-size: 72px;
+  }
+  
+  .discord {
+    position: absolute;
+    color: #FFFFFF;
+    left: 20%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+  }
+
+  .iconpic {
+    height: 128px;
+    width: 128px;
+    border-radius: 12px;
+    color: white;
+    border-color: aqua;
+    border-width: 5px;
+  }
+
+  .discord2 {
+    position: absolute;
+    color: #FFFFFF;
+    left: 40%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+  }
+
+  .discord3 {
+    position: absolute;
+    color: #FFFFFF;
+    left: 60%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+  }
+
+  .discord4 {
+    position: absolute;
+    left: 80%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+    border:white;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(1000%) contrast(100%);
+  }
