@@ -1,8 +1,11 @@
 .headerdiv {
-    padding-top: 10%;
+    padding-top: 7.5%;
     text-align: center;
     padding-bottom: 5%;
+    margin-left: auto;
     margin-right: auto;
+    width: 1500px;
+    max-width: fit-content;
 }
 
 .selectmenu button {
@@ -179,7 +182,7 @@ button {
 /*/
 .box {
     background-color: rgba(0, 0, 0, 0.4);
-    height: 50vmax
+    height: max-content;
 }
 
 .un {
@@ -199,8 +202,92 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     transition: background-image 1s;
+    background-attachment: fixed;
 }
 
 .hidden {
     display: none;
+}
+
+.aboutme {
+    color: white;
+    text-align: left;
+    font-family: PromptThin;
+    padding-bottom: 25%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.aboutmebutton {
+    color: white;
+    font-family: PromptThin;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    max-width: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutmebutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.aboutmebutton button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.aboutmetext {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-inline: auto;
+    border-radius: 5px;
+    width: 1200px;
+    padding-bottom: 1%;
+}
+
+.backtopbutton {
+    color: white;
+    font-family: PromptThin;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    max-width: fit-content;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.backtopbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.backtopbutton button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.aboutmetext p {
+    padding-left: 4%;
+    font-size: larger;
+}
+
+.span1 {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.span2 {
+    text-decoration: line-through;
 }
