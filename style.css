@@ -1,17 +1,190 @@
-body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #340044;
-    background-image: url(image/vrc/bg1.png);
-    color: white;
-    font-family: PromptThin
+.headerdiv {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-right: auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.selectmenu button {
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.selectmenu img {
+    width: 150px;
+    height: 150px;
+}
+
+.selectmenu {
+    padding-top: 50px;
+    width: 1300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0;
+    border: none;
+}
+
+.headerdiv span {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid purple;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(1, end),
+        blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: purple;
+    }
+}
+
+/*/
+.bg1 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat%202023-04-17%2000-13-54.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg2 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat%202023-05-18%2017-40-47.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg3 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat%202023-07-20%2023-42-51.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg4 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2023-11-26_15-28-57.367_1920x1080_wrld_7d2af18c-e4a1-4084-9cd2-b27432b45980.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg5 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-02-26_02-34-12.337_1920x1080_wrld_c4d572ac-7f36-4ff7-b0e0-0dc8efdab88d.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg6 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-03-05_23-20-11.630_1920x1080_wrld_b6f22e8e-1264-4b9e-9c24-27418e7c67f7.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg7 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-03-17_02-04-49.412_1920x1080_wrld_88e3c772-894f-418d-b9e5-96059af3d631.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg8 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-04-01_15-20-41.362_1920x1080_wrld_7d2af18c-e4a1-4084-9cd2-b27432b45980.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg9 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-04-01_15-32-09.083_1920x1080_wrld_7d2af18c-e4a1-4084-9cd2-b27432b45980.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg10 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/VRChat_2024-04-21_22-45-05.198_1920x1080_wrld_e78b25da-efcb-41e2-8ddd-81e82f654331.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bg11 {
+    background: url(https://github.com/Miiyuukii/unstblr.xyz-Website/blob/main/image/vrc/bg1.png?raw=true);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+/*/
+.box {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50vmax
+}
+
+.un {
+    color: white;
+    font-family: PromptThin;
 }
 
 @font-face {
@@ -19,67 +192,15 @@ body {
     src: url(font/prompt/Prompt-Thin.ttf);
 }
 
-.box1 {
-    background-color: rgba(0, 0, 0, 0.7); 
-    width: auto;
+body {
+    margin: 0;
     height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
 }
 
-.group1 {
-  text-align: center;
-  padding-top: 10%;
+.hidden {
+    display: none;
 }
-
-button {
-    background-color: #6d04aa;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 4px 2px;
-    border-radius: 8px;
-    transition: all 0.5s;
-    cursor: pointer;
-    font-family: PromptThin;
-}
-
-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-button:hover span {
-    padding-right: 25px;
-  }
-  
-button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-.video {
-  border-color: #6d04aa;
-  border-radius: 16px;
-}
-
-.box2 {
-  background-color: #711ea1;
-  background-size: cover;
-  width: auto;
-  height: 100%;
-}
-
