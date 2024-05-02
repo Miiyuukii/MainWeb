@@ -208,6 +208,7 @@ body {
     background-repeat: no-repeat;
     transition: background-image 1s;
     background-attachment: fixed;
+    overflow-y: hidden;
 }
 
 .hidden {
