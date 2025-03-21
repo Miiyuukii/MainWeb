@@ -219,7 +219,6 @@ body {
     color: white;
     text-align: left;
     font-family: PromptThin;
-    padding-bottom: 20%;
 }
 
 html {
@@ -256,7 +255,6 @@ html {
     margin-inline: auto;
     border-radius: 5px;
     width: 1200px;
-    padding-bottom: 1%;
 }
 
 .backtopbutton {
@@ -267,7 +265,6 @@ html {
     margin-right: auto;
     width: 1500px;
     max-width: fit-content;
-    padding-top: 5%;
     padding-bottom: 1%;
 }
 
